@@ -1,0 +1,169 @@
+{
+  "risk_model": {
+    "best_model": "logistic",
+    "val_pr_auc_by_model": {
+      "logistic": 0.0834,
+      "random_forest": 0.0669,
+      "hist_gb": 0.0817
+    },
+    "raw": {
+      "roc_auc": 0.6411,
+      "pr_auc": 0.0851,
+      "brier": 0.0438,
+      "ece": 0.0178,
+      "recall_top5pct": 0.1409,
+      "recall_top10pct": 0.229
+    },
+    "calibrated": {
+      "roc_auc": 0.6386,
+      "pr_auc": 0.0789,
+      "brier": 0.0419,
+      "ece": 0.0028,
+      "recall_top5pct": 0.1409,
+      "recall_top10pct": 0.2195
+    },
+    "reliability_diagram": [
+      {
+        "bin_mid": 0.05,
+        "mean_pred": 0.0401,
+        "frac_pos": 0.0407,
+        "count": 16028
+      },
+      {
+        "bin_mid": 0.15,
+        "mean_pred": 0.1411,
+        "frac_pos": 0.1132,
+        "count": 433
+      },
+      {
+        "bin_mid": 0.25,
+        "mean_pred": 0.2581,
+        "frac_pos": 0.1384,
+        "count": 159
+      },
+      {
+        "bin_mid": 0.35,
+        "mean_pred": 0.3328,
+        "frac_pos": 0.2273,
+        "count": 66
+      }
+    ]
+  },
+  "risk_model_no_leak": {
+    "best_model": "logistic",
+    "val_pr_auc_by_model": {
+      "logistic": 0.0844,
+      "random_forest": 0.0612,
+      "hist_gb": 0.0775
+    },
+    "raw": {
+      "roc_auc": 0.648,
+      "pr_auc": 0.0869,
+      "brier": 0.0437,
+      "ece": 0.0185,
+      "recall_top5pct": 0.1423,
+      "recall_top10pct": 0.2317
+    },
+    "calibrated": {
+      "roc_auc": 0.6471,
+      "pr_auc": 0.0811,
+      "brier": 0.0419,
+      "ece": 0.004,
+      "recall_top5pct": 0.1409,
+      "recall_top10pct": 0.2371
+    },
+    "reliability_diagram": [
+      {
+        "bin_mid": 0.05,
+        "mean_pred": 0.0429,
+        "frac_pos": 0.0412,
+        "count": 16198
+      },
+      {
+        "bin_mid": 0.15,
+        "mean_pred": 0.1388,
+        "frac_pos": 0.125,
+        "count": 240
+      },
+      {
+        "bin_mid": 0.25,
+        "mean_pred": 0.2389,
+        "frac_pos": 0.0833,
+        "count": 24
+      },
+      {
+        "bin_mid": 0.35,
+        "mean_pred": 0.3142,
+        "frac_pos": 0.1741,
+        "count": 224
+      }
+    ]
+  },
+  "permutation_importance": [
+    {
+      "feature": "previous_failures",
+      "importance_mean": 0.02931,
+      "importance_std": 0.00081
+    },
+    {
+      "feature": "age_years",
+      "importance_mean": 0.0029,
+      "importance_std": 0.00147
+    },
+    {
+      "feature": "asset_type_enc",
+      "importance_mean": 0.00207,
+      "importance_std": 0.00077
+    },
+    {
+      "feature": "months_since_repair",
+      "importance_mean": 0.00188,
+      "importance_std": 0.00101
+    },
+    {
+      "feature": "material_enc",
+      "importance_mean": 0.00146,
+      "importance_std": 0.00027
+    },
+    {
+      "feature": "rainfall_mm",
+      "importance_mean": 0.00075,
+      "importance_std": 0.00034
+    },
+    {
+      "feature": "dma_leak_score",
+      "importance_mean": 0.00037,
+      "importance_std": 9e-05
+    },
+    {
+      "feature": "road_class_enc",
+      "importance_mean": 0.00012,
+      "importance_std": 0.00138
+    },
+    {
+      "feature": "daily_traffic",
+      "importance_mean": -0.00012,
+      "importance_std": 0.00028
+    },
+    {
+      "feature": "maintenance_count",
+      "importance_mean": -0.00017,
+      "importance_std": 0.00014
+    },
+    {
+      "feature": "months_since_inspection",
+      "importance_mean": -0.00019,
+      "importance_std": 0.00045
+    },
+    {
+      "feature": "condition_score",
+      "importance_mean": -0.00098,
+      "importance_std": 0.00103
+    },
+    {
+      "feature": "sensor_reading",
+      "importance_mean": -0.0012,
+      "importance_std": 0.00059
+    }
+  ]
+}

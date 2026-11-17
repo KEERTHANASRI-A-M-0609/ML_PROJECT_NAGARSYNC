@@ -1,0 +1,868 @@
+{
+  "summary": {
+    "reactive_only": {
+      "failures": {
+        "mean": 1229.3,
+        "ci95": [
+          1204.497,
+          1254.103
+        ]
+      },
+      "crit_weighted_failures": {
+        "mean": 3804.3,
+        "ci95": [
+          3724.941,
+          3883.659
+        ]
+      },
+      "planned_spend": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "emergency_spend": {
+        "mean": 17250.115,
+        "ci95": [
+          16833.071,
+          17667.16
+        ]
+      },
+      "planned_visits": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "reactive_visits": {
+        "mean": 1229.3,
+        "ci95": [
+          1204.497,
+          1254.103
+        ]
+      },
+      "total_road_closures": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "re_dig_events": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "vehicle_hours_disrupted": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "total_spend": {
+        "mean": 17250.115,
+        "ci95": [
+          16833.071,
+          17667.16
+        ]
+      },
+      "failures_diff_vs_ml_per_rupee": {
+        "mean": 37.1,
+        "ci95": [
+          10.53,
+          63.67
+        ]
+      }
+    },
+    "oldest_first": {
+      "failures": {
+        "mean": 1233.9,
+        "ci95": [
+          1206.116,
+          1261.684
+        ]
+      },
+      "crit_weighted_failures": {
+        "mean": 3815.6,
+        "ci95": [
+          3723.754,
+          3907.446
+        ]
+      },
+      "planned_spend": {
+        "mean": 4617.036,
+        "ci95": [
+          4617.036,
+          4617.036
+        ]
+      },
+      "emergency_spend": {
+        "mean": 17277.866,
+        "ci95": [
+          16846.484,
+          17709.249
+        ]
+      },
+      "planned_visits": {
+        "mean": 360.0,
+        "ci95": [
+          360.0,
+          360.0
+        ]
+      },
+      "reactive_visits": {
+        "mean": 1233.9,
+        "ci95": [
+          1206.116,
+          1261.684
+        ]
+      },
+      "total_road_closures": {
+        "mean": 372.0,
+        "ci95": [
+          372.0,
+          372.0
+        ]
+      },
+      "re_dig_events": {
+        "mean": 32.7,
+        "ci95": [
+          28.249,
+          37.151
+        ]
+      },
+      "vehicle_hours_disrupted": {
+        "mean": 2509635.6,
+        "ci95": [
+          2509635.6,
+          2509635.6
+        ]
+      },
+      "total_spend": {
+        "mean": 21894.903,
+        "ci95": [
+          21463.52,
+          22326.285
+        ]
+      },
+      "failures_diff_vs_ml_per_rupee": {
+        "mean": 41.7,
+        "ci95": [
+          12.996,
+          70.404
+        ]
+      },
+      "failures_diff_vs_reactive_only": {
+        "mean": 4.6,
+        "ci95": [
+          -13.178,
+          22.378
+        ]
+      }
+    },
+    "risk_first": {
+      "failures": {
+        "mean": 1203.3,
+        "ci95": [
+          1174.17,
+          1232.43
+        ]
+      },
+      "crit_weighted_failures": {
+        "mean": 3716.4,
+        "ci95": [
+          3621.808,
+          3810.992
+        ]
+      },
+      "planned_spend": {
+        "mean": 4617.326,
+        "ci95": [
+          4617.007,
+          4617.644
+        ]
+      },
+      "emergency_spend": {
+        "mean": 16769.499,
+        "ci95": [
+          16358.794,
+          17180.205
+        ]
+      },
+      "planned_visits": {
+        "mean": 335.7,
+        "ci95": [
+          325.202,
+          346.198
+        ]
+      },
+      "reactive_visits": {
+        "mean": 1203.3,
+        "ci95": [
+          1174.17,
+          1232.43
+        ]
+      },
+      "total_road_closures": {
+        "mean": 354.2,
+        "ci95": [
+          346.454,
+          361.946
+        ]
+      },
+      "re_dig_events": {
+        "mean": 123.0,
+        "ci95": [
+          114.84,
+          131.16
+        ]
+      },
+      "vehicle_hours_disrupted": {
+        "mean": 4101957.9,
+        "ci95": [
+          3893733.322,
+          4310182.478
+        ]
+      },
+      "total_spend": {
+        "mean": 21386.825,
+        "ci95": [
+          20976.073,
+          21797.577
+        ]
+      },
+      "failures_diff_vs_ml_per_rupee": {
+        "mean": 11.1,
+        "ci95": [
+          -20.971,
+          43.171
+        ]
+      },
+      "failures_diff_vs_reactive_only": {
+        "mean": -26.0,
+        "ci95": [
+          -60.352,
+          8.352
+        ]
+      }
+    },
+    "ml_per_rupee": {
+      "failures": {
+        "mean": 1192.2,
+        "ci95": [
+          1164.394,
+          1220.006
+        ]
+      },
+      "crit_weighted_failures": {
+        "mean": 3623.6,
+        "ci95": [
+          3539.041,
+          3708.159
+        ]
+      },
+      "planned_spend": {
+        "mean": 4617.53,
+        "ci95": [
+          4617.037,
+          4618.023
+        ]
+      },
+      "emergency_spend": {
+        "mean": 17122.374,
+        "ci95": [
+          16737.401,
+          17507.348
+        ]
+      },
+      "planned_visits": {
+        "mean": 1302.3,
+        "ci95": [
+          1290.83,
+          1313.77
+        ]
+      },
+      "reactive_visits": {
+        "mean": 1192.2,
+        "ci95": [
+          1164.394,
+          1220.006
+        ]
+      },
+      "total_road_closures": {
+        "mean": 1403.5,
+        "ci95": [
+          1389.093,
+          1417.907
+        ]
+      },
+      "re_dig_events": {
+        "mean": 224.7,
+        "ci95": [
+          211.646,
+          237.754
+        ]
+      },
+      "vehicle_hours_disrupted": {
+        "mean": 1309069.26,
+        "ci95": [
+          1244663.4,
+          1373475.12
+        ]
+      },
+      "total_spend": {
+        "mean": 21739.905,
+        "ci95": [
+          21354.785,
+          22125.024
+        ]
+      },
+      "failures_diff_vs_reactive_only": {
+        "mean": -37.1,
+        "ci95": [
+          -63.67,
+          -10.53
+        ]
+      }
+    },
+    "greedy_coordinated": {
+      "failures": {
+        "mean": 1198.3,
+        "ci95": [
+          1175.649,
+          1220.951
+        ]
+      },
+      "crit_weighted_failures": {
+        "mean": 3635.5,
+        "ci95": [
+          3571.589,
+          3699.411
+        ]
+      },
+      "planned_spend": {
+        "mean": 4618.249,
+        "ci95": [
+          4618.12,
+          4618.377
+        ]
+      },
+      "emergency_spend": {
+        "mean": 17250.186,
+        "ci95": [
+          17001.94,
+          17498.431
+        ]
+      },
+      "planned_visits": {
+        "mean": 1349.3,
+        "ci95": [
+          1334.202,
+          1364.398
+        ]
+      },
+      "reactive_visits": {
+        "mean": 1198.3,
+        "ci95": [
+          1175.649,
+          1220.951
+        ]
+      },
+      "total_road_closures": {
+        "mean": 1470.9,
+        "ci95": [
+          1452.878,
+          1488.922
+        ]
+      },
+      "re_dig_events": {
+        "mean": 230.2,
+        "ci95": [
+          219.585,
+          240.815
+        ]
+      },
+      "vehicle_hours_disrupted": {
+        "mean": 1332599.75,
+        "ci95": [
+          1279061.166,
+          1386138.334
+        ]
+      },
+      "total_spend": {
+        "mean": 21868.434,
+        "ci95": [
+          21620.156,
+          22116.713
+        ]
+      },
+      "failures_diff_vs_ml_per_rupee": {
+        "mean": 6.1,
+        "ci95": [
+          -13.405,
+          25.605
+        ]
+      },
+      "failures_diff_vs_reactive_only": {
+        "mean": -31.0,
+        "ci95": [
+          -55.902,
+          -6.098
+        ]
+      }
+    },
+    "digonce": {
+      "failures": {
+        "mean": 1192.1,
+        "ci95": [
+          1168.525,
+          1215.675
+        ]
+      },
+      "crit_weighted_failures": {
+        "mean": 3624.6,
+        "ci95": [
+          3546.547,
+          3702.653
+        ]
+      },
+      "planned_spend": {
+        "mean": 5909.795,
+        "ci95": [
+          5882.658,
+          5936.931
+        ]
+      },
+      "emergency_spend": {
+        "mean": 17195.853,
+        "ci95": [
+          16741.74,
+          17649.967
+        ]
+      },
+      "planned_visits": {
+        "mean": 1105.9,
+        "ci95": [
+          1094.204,
+          1117.596
+        ]
+      },
+      "reactive_visits": {
+        "mean": 1192.1,
+        "ci95": [
+          1168.525,
+          1215.675
+        ]
+      },
+      "total_road_closures": {
+        "mean": 1797.3,
+        "ci95": [
+          1781.533,
+          1813.067
+        ]
+      },
+      "re_dig_events": {
+        "mean": 186.9,
+        "ci95": [
+          178.319,
+          195.481
+        ]
+      },
+      "vehicle_hours_disrupted": {
+        "mean": 1620397.27,
+        "ci95": [
+          1579585.235,
+          1661209.305
+        ]
+      },
+      "total_spend": {
+        "mean": 23105.648,
+        "ci95": [
+          22652.826,
+          23558.47
+        ]
+      },
+      "failures_diff_vs_ml_per_rupee": {
+        "mean": -0.1,
+        "ci95": [
+          -32.303,
+          32.103
+        ]
+      },
+      "failures_diff_vs_reactive_only": {
+        "mean": -37.2,
+        "ci95": [
+          -58.736,
+          -15.664
+        ]
+      }
+    },
+    "digonce_no_calibration": {
+      "failures": {
+        "mean": 1180.1,
+        "ci95": [
+          1147.741,
+          1212.459
+        ]
+      },
+      "crit_weighted_failures": {
+        "mean": 3578.6,
+        "ci95": [
+          3475.428,
+          3681.772
+        ]
+      },
+      "planned_spend": {
+        "mean": 5793.241,
+        "ci95": [
+          5763.943,
+          5822.54
+        ]
+      },
+      "emergency_spend": {
+        "mean": 16978.33,
+        "ci95": [
+          16494.712,
+          17461.947
+        ]
+      },
+      "planned_visits": {
+        "mean": 890.8,
+        "ci95": [
+          879.15,
+          902.45
+        ]
+      },
+      "reactive_visits": {
+        "mean": 1180.1,
+        "ci95": [
+          1147.741,
+          1212.459
+        ]
+      },
+      "total_road_closures": {
+        "mean": 1502.7,
+        "ci95": [
+          1480.937,
+          1524.463
+        ]
+      },
+      "re_dig_events": {
+        "mean": 186.2,
+        "ci95": [
+          172.422,
+          199.978
+        ]
+      },
+      "vehicle_hours_disrupted": {
+        "mean": 2229168.53,
+        "ci95": [
+          2136535.2,
+          2321801.86
+        ]
+      },
+      "total_spend": {
+        "mean": 22771.571,
+        "ci95": [
+          22302.268,
+          23240.875
+        ]
+      },
+      "failures_diff_vs_ml_per_rupee": {
+        "mean": -12.1,
+        "ci95": [
+          -42.885,
+          18.685
+        ]
+      },
+      "failures_diff_vs_reactive_only": {
+        "mean": -49.2,
+        "ci95": [
+          -65.733,
+          -32.667
+        ]
+      }
+    },
+    "digonce_no_leak_link": {
+      "failures": {
+        "mean": 1182.5,
+        "ci95": [
+          1152.589,
+          1212.411
+        ]
+      },
+      "crit_weighted_failures": {
+        "mean": 3588.3,
+        "ci95": [
+          3492.602,
+          3683.998
+        ]
+      },
+      "planned_spend": {
+        "mean": 5852.743,
+        "ci95": [
+          5823.024,
+          5882.462
+        ]
+      },
+      "emergency_spend": {
+        "mean": 17103.591,
+        "ci95": [
+          16653.18,
+          17554.003
+        ]
+      },
+      "planned_visits": {
+        "mean": 1076.0,
+        "ci95": [
+          1063.091,
+          1088.909
+        ]
+      },
+      "reactive_visits": {
+        "mean": 1182.5,
+        "ci95": [
+          1152.589,
+          1212.411
+        ]
+      },
+      "total_road_closures": {
+        "mean": 1727.2,
+        "ci95": [
+          1712.157,
+          1742.243
+        ]
+      },
+      "re_dig_events": {
+        "mean": 194.5,
+        "ci95": [
+          183.78,
+          205.22
+        ]
+      },
+      "vehicle_hours_disrupted": {
+        "mean": 1742777.97,
+        "ci95": [
+          1702821.447,
+          1782734.493
+        ]
+      },
+      "total_spend": {
+        "mean": 22956.334,
+        "ci95": [
+          22495.334,
+          23417.335
+        ]
+      },
+      "failures_diff_vs_ml_per_rupee": {
+        "mean": -9.7,
+        "ci95": [
+          -36.661,
+          17.261
+        ]
+      },
+      "failures_diff_vs_reactive_only": {
+        "mean": -46.8,
+        "ci95": [
+          -67.356,
+          -26.244
+        ]
+      }
+    },
+    "digonce_default_schedule": {
+      "failures": {
+        "mean": 1192.1,
+        "ci95": [
+          1168.525,
+          1215.675
+        ]
+      },
+      "crit_weighted_failures": {
+        "mean": 3624.6,
+        "ci95": [
+          3546.547,
+          3702.653
+        ]
+      },
+      "planned_spend": {
+        "mean": 5909.795,
+        "ci95": [
+          5882.658,
+          5936.931
+        ]
+      },
+      "emergency_spend": {
+        "mean": 17195.853,
+        "ci95": [
+          16741.74,
+          17649.967
+        ]
+      },
+      "planned_visits": {
+        "mean": 1105.9,
+        "ci95": [
+          1094.204,
+          1117.596
+        ]
+      },
+      "reactive_visits": {
+        "mean": 1192.1,
+        "ci95": [
+          1168.525,
+          1215.675
+        ]
+      },
+      "total_road_closures": {
+        "mean": 1797.3,
+        "ci95": [
+          1781.533,
+          1813.067
+        ]
+      },
+      "re_dig_events": {
+        "mean": 186.9,
+        "ci95": [
+          178.319,
+          195.481
+        ]
+      },
+      "vehicle_hours_disrupted": {
+        "mean": 3614544.699,
+        "ci95": [
+          3541191.481,
+          3687897.917
+        ]
+      },
+      "total_spend": {
+        "mean": 23105.648,
+        "ci95": [
+          22652.826,
+          23558.47
+        ]
+      },
+      "failures_diff_vs_ml_per_rupee": {
+        "mean": -0.1,
+        "ci95": [
+          -32.303,
+          32.103
+        ]
+      },
+      "failures_diff_vs_reactive_only": {
+        "mean": -37.2,
+        "ci95": [
+          -58.736,
+          -15.664
+        ]
+      }
+    }
+  },
+  "sensitivity_mobilisation": [
+    {
+      "mob_scale": 0.0,
+      "digonce_benefit": 85.83,
+      "mlpr_benefit": 275.861,
+      "saving": -190.03
+    },
+    {
+      "mob_scale": 0.5,
+      "digonce_benefit": 114.594,
+      "mlpr_benefit": 243.818,
+      "saving": -129.224
+    },
+    {
+      "mob_scale": 1.0,
+      "digonce_benefit": 134.232,
+      "mlpr_benefit": 216.639,
+      "saving": -82.407
+    },
+    {
+      "mob_scale": 1.5,
+      "digonce_benefit": 144.871,
+      "mlpr_benefit": 194.258,
+      "saving": -49.387
+    },
+    {
+      "mob_scale": 2.0,
+      "digonce_benefit": 153.039,
+      "mlpr_benefit": 177.988,
+      "saving": -24.949
+    },
+    {
+      "mob_scale": 3.0,
+      "digonce_benefit": 164.814,
+      "mlpr_benefit": 151.454,
+      "saving": 13.36
+    }
+  ],
+  "breakeven_mob_scale": 0.0,
+  "sensitivity_budget": [
+    {
+      "budget_frac": 0.1,
+      "digonce_benefit": 30.911,
+      "mlpr_benefit": 28.237,
+      "saving": 2.674
+    },
+    {
+      "budget_frac": 0.15,
+      "digonce_benefit": 32.673,
+      "mlpr_benefit": 37.633,
+      "saving": -4.96
+    },
+    {
+      "budget_frac": 0.2,
+      "digonce_benefit": 32.673,
+      "mlpr_benefit": 46.102,
+      "saving": -13.429
+    },
+    {
+      "budget_frac": 0.25,
+      "digonce_benefit": 32.673,
+      "mlpr_benefit": 54.446,
+      "saving": -21.773
+    },
+    {
+      "budget_frac": 0.3,
+      "digonce_benefit": 32.673,
+      "mlpr_benefit": 61.717,
+      "saving": -29.044
+    },
+    {
+      "budget_frac": 0.4,
+      "digonce_benefit": 32.673,
+      "mlpr_benefit": 73.051,
+      "saving": -40.378
+    }
+  ],
+  "equity_tradeoff": [
+    {
+      "min_ward_share": 0.0,
+      "total_benefit": 32.673,
+      "gini_ward_spend": 0.3407
+    },
+    {
+      "min_ward_share": 0.25,
+      "total_benefit": 60.6,
+      "gini_ward_spend": 0.2605
+    },
+    {
+      "min_ward_share": 0.5,
+      "total_benefit": 60.6,
+      "gini_ward_spend": 0.2605
+    },
+    {
+      "min_ward_share": 0.75,
+      "total_benefit": 60.6,
+      "gini_ward_spend": 0.2605
+    },
+    {
+      "min_ward_share": 1.0,
+      "total_benefit": 60.6,
+      "gini_ward_spend": 0.2605
+    }
+  ]
+}

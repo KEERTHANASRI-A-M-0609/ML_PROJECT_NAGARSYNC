@@ -1,0 +1,128 @@
+[
+  {
+    "id": "8c20e734-f6ab-4f7d-a054-456ee09f2e1c",
+    "email": "k@gmail",
+    "password_hash": "f267c45fa3b8f41bea1442b597daf1ba:8c2e5db4bf98a4e7c740b293c475b49563849bdcfcc25b77b959c3aba5981a9f",
+    "role": "citizen",
+    "name": "K",
+    "token_version": 0,
+    "created_at": 1793208574.9551811
+  },
+  {
+    "id": "0d8f0f6c-a492-4c4d-9be7-198c1d689ad4",
+    "email": "admin@nagarsync.gov",
+    "password_hash": "d996ea3f938246ba74c8898e625721df:e567f4a9b86c103447eed8d101111514a423c5b37c157d7fa37c6b1a435d9725",
+    "role": "admin",
+    "name": "Municipal Administrator",
+    "token_version": 1,
+    "created_at": 1793208785.9182177
+  },
+  {
+    "id": "655921b9-d9e3-4734-b3ef-90cf6a678560",
+    "email": "worker@nagarsync.gov",
+    "password_hash": "3552145d08d47bf0a50c1a7502a899f6:b898939823fb49ee6855a6088b13031910640f9b38f9832a4821129af1212ade",
+    "role": "field_worker",
+    "name": "Senior Field Engineer",
+    "token_version": 0,
+    "created_at": 1793208786.6390026
+  },
+  {
+    "id": "8694543c-9984-40d6-85a2-abef609414ca",
+    "email": "citizen@nagarsync.gov",
+    "password_hash": "b1e0209ca31de8c5297a5cea1af57e91:f0f437546a5eba9d1d6c147f8a3d465abcaacbcfeb0253ebd730f6ac6a19bb31",
+    "role": "citizen",
+    "name": "Priya Sundaram (Citizen)",
+    "token_version": 0,
+    "created_at": 1793208787.3036473
+  },
+  {
+    "id": "5011b55f-53ea-4195-8e5c-894befaec5a8",
+    "email": "k@gmail.com",
+    "password_hash": "97f1b03818f8cb9919b73459579b2cb5:f2b704b918293f64089885bd806bbd145c50ab66e5f1c0afb95c4b0a4344de53",
+    "role": "citizen",
+    "name": "k",
+    "token_version": 0,
+    "created_at": 1793248412.5220287
+  },
+  {
+    "id": "838128da-ae24-4936-9f2f-7d31666ae996",
+    "email": "keerthana@gmail.com",
+    "password_hash": "b90b56899df78884d5d7c612cb1c00ea:0d4440271758d5e803f3f3ec8ce12fd510d6f4db9c44e354c4441a66a78a4d50",
+    "role": "citizen",
+    "name": "Keerthana",
+    "token_version": 1,
+    "created_at": 1793248534.7555013
+  },
+  {
+    "id": "e5a7e715-df54-4963-bcdf-2eaa554418fc",
+    "email": "demo-admin@example.test",
+    "password_hash": "b63eadfccfba0346ba27297492588eba:80f1fb2842a8c9315089c889000b87a702419eca6d44b2d3e6cb3d05f711701e",
+    "role": "admin",
+    "name": "Demo Administrator",
+    "token_version": 0,
+    "created_at": 1793298370.2998314
+  },
+  {
+    "id": "c5c9fbce-93bb-4ede-985b-6cf0b959e37a",
+    "email": "demo-worker@example.test",
+    "password_hash": "25cb6fa670122cbf13ef259c71eb016a:c2d43f4e256aee8cd8fe5f945c17378c000ec0e77173651135b02e21c53079fa",
+    "role": "field_worker",
+    "name": "Demo Field Worker",
+    "token_version": 0,
+    "created_at": 1793298370.477571
+  },
+  {
+    "id": "162d5391-3a5d-4129-be6b-31241663e995",
+    "email": "demo-citizen@example.test",
+    "password_hash": "82d519d46db16668b8b0878ada65514f:c737ea0403e7e274c1c40a37aa04fd9dada62229a93e8f0a5f7c70ac0e43cb2b",
+    "role": "citizen",
+    "name": "Demo Citizen",
+    "token_version": 3,
+    "created_at": 1794758072.4552138
+  },
+  {
+    "id": "8fb1e9de-ebcd-46e9-86f1-0b6d1b81434d",
+    "email": "municipal-admin@example.test",
+    "password_hash": "44d9d83e8271b3372052e71487d9957d:afafb0fdb48922a6c04fad3243931017f6b4a79e8a0034014950ab4ee49193ed",
+    "role": "admin",
+    "name": "Municipal Demo Administrator",
+    "token_version": 6,
+    "created_at": 1794758561.200213
+  },
+  {
+    "id": "ba5cf88f-75c2-45af-b5f9-fe1be4444b23",
+    "email": "municipal-worker@example.test",
+    "password_hash": "31b2e279b08c72a23bb8c7177a8dab10:ee074191dc300430f7785e8742bbd3a4dfc250b4687f49df0a1b1d4f8eee8643",
+    "role": "field_worker",
+    "name": "Municipal Demo Field Worker",
+    "token_version": 5,
+    "created_at": 1794758564.6035688
+  },
+  {
+    "id": "a0b31490-3f87-48f9-9222-9d31430c0de1",
+    "email": "keerthana1368@gmail.com",
+    "password_hash": "85c3e8aa411d39f626e510a18b562ec6:7aaafcaf00c414c4e14b54306728cc98f62db8a177d9b199ef64a91db449f8d2",
+    "role": "citizen",
+    "name": "Keerthana",
+    "token_version": 1,
+    "created_at": 1794769664.9134216
+  },
+  {
+    "id": "be4eb667-eab6-40e0-a5fb-8efdd3c1f706",
+    "email": "keerthanasri@gmail.com",
+    "password_hash": "cd6b4d6ae49d4bffa510f7d0ef57aa53:e99b1c88a26e48d3e8ffd511e1bef7b675f499c9267eed035aee151b9160f3b3",
+    "role": "citizen",
+    "name": "Keerthana",
+    "token_version": 0,
+    "created_at": 1794915896.938703
+  },
+  {
+    "id": "a277f868-8e95-4d79-a20a-8acff96ddd42",
+    "email": "keerthana1@gmail.com",
+    "password_hash": "0920e478ec792283045107eaf5c30e8e:1fae47d74c6d71d09e5472ff312d8076517fdc4bf07b4e6be874fcddd2af0b97",
+    "role": "citizen",
+    "name": "Keerthana",
+    "token_version": 0,
+    "created_at": 1794931257.5633736
+  }
+]
